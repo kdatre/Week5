@@ -1,3 +1,48 @@
+/* Created by Kyle */
+
+/* FONTS */
+h1, h2, h3, h4, h5, p, a, body {
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	font-family: "Arial";
+}
+
+h1 {
+	font: Arial Black Regular;
+	font-size: 52px;
+	color: #fff;
+}
+
+h4 {
+	font: Arial Regular;
+	font-size: 24px;
+	color: #fff;
+}
+
+h5 {
+	font: Arial Regular;
+	font-size: 22px;
+	color: #fff;
+}
+
+
+/* NAV BAR */
+
+
+.navbar {
+	height: 80px;
+}
+
+.logo{
+	float: left;
+	margin-left: 70px;
+	margin-top: 29px;
+}
+
 .btn {
     border-radius: 25px;
     border-color: #FF0066;
@@ -6,9 +51,137 @@
     padding: 10px 40px;
 }
 
-.navLogin, .navSubscribe {
+.navLogin {
     float: right;
-    margin-top: 18px;
+    margin-top: 23px;
+    background-color: #FF0066;
     margin-right: 70px;
 }
+
+.navSubscribe {
+    float: right;
+    margin-top: 23px;
+    margin-right: 15px;	
+}
+
+
+/* Splash Banner */
+
+
+.splash-image {
+	width: 100%;
+}
+
+.row-splash {
+	position: absolute;
+	top: 325px;
+	left: 209px;
+	width: 450px;
+}
+
+.subscribeToday {
+    float: left;
+    margin-top: 23px;
+    margin-right: 15px;
+    padding: 15px 50px;	
+}
+
+
+/* Middle Section */
+
+
+.middle {
+	margin-top: 70px;
+}
+
+.middle-title {
+	font-family: "Arial Black";
+	font-size: 36px;
+	color: #2B95FD;
+	text-align: center;
+}
+
+.middle-sub {
+	font-family: "Arial Regular";
+	font-size: 22px;
+	color: #959595;
+	text-align: center;
+	margin-top: 24px;
+}
+
+
+/* Columns Section */
+
+.columns {
+	margin-top: 70px;
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	margin-right: 54px;
+}
+
+.box1 {
+	background-color: #3397fa;
+	border-radius: 15px;
+	width: 300px;
+	height: 450px;
+}
+
+.box2 {
+	background-color: #5069e8;
+	border-radius: 15px;
+	width: 300px;
+	height: 450px;	
+}
+
+.box3 {
+	background-color: #7939d0;
+	border-radius: 15px;
+	width: 300px;
+	height: 450px;		
+}
+
+.btn-signup {
+	border-radius: 25px;
+    border: 4px solid #fff;
+    padding: 10px 40px;
+    font-family: "Arial Regular";
+    font-size: 20px;
+	color: #fff;
+}
+
+.column-title {
+	font-family: "Arial Black";
+	font-size: 42px;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.column-subtitle {
+	font-family: "Arial Black";
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+}
+
+.column-p {
+	font-family: "Arial Regular";
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 200%;
+}
+
+
+
+
+
+
+
+
 
